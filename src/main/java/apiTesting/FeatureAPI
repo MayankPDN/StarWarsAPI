@@ -1,0 +1,43 @@
+Feature: Verify the functionality of API for starwars website 
+
+Scenario: Verify the functionality of API to return all starwars characters 
+	Given  browser is launched and url is entered for website
+	Then user enter valid service URL to search All starwars characters 
+	Then user click on Request button
+	Then verify the output is displayed
+	
+	
+Scenario:  Verify the functionality of API to display all starwars characters 
+	Given browser is launched and url is entered for website
+	Then user enter Invalid service URL to search All starwars characters  
+	Then user click on Request button 
+	Then verify the output is not displayed
+
+	
+Scenario: Verify the functionality of API to search all starwars characters 
+	Given browser is launched and url is entered for website
+	Then no service url entered
+	Then user click on Request button 
+	Then verify the output is not displayed 
+	
+	
+
+Scenario: Verify the functionality of API to return starwars characters
+	Given browser is launched and url is entered for website 
+	Then  enter valid service URL for starwars characters
+	Then user click on Request button 
+	Then verify the output is displayed
+
+	
+Scenario: Verify the functionality of API to search starwars characters 
+	Given browser is launched and url is entered for website 
+	Then user enter Invalid service URL 
+	Then user click on Request button 
+	Then verify the output is not displayed  
+	
+
+Scenario: Verify the functionality of search boxcon swapi home page 
+	Given browser is launched and url is entered for website
+	Then no service url entered
+	Then user click on Request button  
+	Then verify the output is not displayed 

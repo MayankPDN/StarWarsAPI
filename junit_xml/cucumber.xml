@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="115.122218">
+<testcase classname="Verify the functionality of API for starwars website" name="Verify the functionality of API to return all starwars characters" time="15.530287">
+<system-out><![CDATA[Given browser is launched and url is entered for website....................passed
+Then user enter valid service URL to search All starwars characters.........passed
+Then user click on Request button...........................................passed
+Then verify the output is displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the functionality of API for starwars website" name="Verify the functionality of API to display all starwars characters" time="12.470878">
+<system-out><![CDATA[Given browser is launched and url is entered for website....................passed
+Then user enter Invalid service URL to search All starwars characters.......passed
+Then user click on Request button...........................................passed
+Then verify the output is not displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the functionality of API for starwars website" name="Verify the functionality of API to search all starwars characters" time="16.677739">
+<system-out><![CDATA[Given browser is launched and url is entered for website....................passed
+Then no service url entered.................................................passed
+Then user click on Request button...........................................passed
+Then verify the output is not displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the functionality of API for starwars website" name="Verify the functionality of API to return starwars characters" time="23.59417">
+<system-out><![CDATA[Given browser is launched and url is entered for website....................passed
+Then enter valid service URL for starwars characters........................passed
+Then user click on Request button...........................................passed
+Then verify the output is displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the functionality of API for starwars website" name="Verify the functionality of API to search starwars characters" time="30.029992">
+<system-out><![CDATA[Given browser is launched and url is entered for website....................passed
+Then user enter Invalid service URL.........................................passed
+Then user click on Request button...........................................passed
+Then verify the output is not displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the functionality of API for starwars website" name="Verify the functionality of search boxcon swapi home page" time="16.819152">
+<system-out><![CDATA[Given browser is launched and url is entered for website....................passed
+Then no service url entered.................................................passed
+Then user click on Request button...........................................passed
+Then verify the output is not displayed.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
