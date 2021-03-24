@@ -45,7 +45,7 @@ public class ApiTestAllStarWarsCharacters {
 	}
 
 	@Test (priority=2)
-	public void TC_01_TestInvaliddata_AllStarWarsCharacters() {
+	public void TC_02_TestInvaliddata_AllStarWarsCharacters() {
 
 		//  Endpoint/ Base URL specified for all StarWars characters
 		
@@ -78,7 +78,7 @@ public class ApiTestAllStarWarsCharacters {
 	}
 	
 	@Test (priority=3)
-	public void TC_03_All_StarWars_char_NullInput() {
+	public void TC_03_TestNulldata_AllStarWarsCharacters() {
 
 		//  Endpoint/ Base URL specified for all StarWars characters
 		
